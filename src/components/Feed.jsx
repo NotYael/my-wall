@@ -74,7 +74,7 @@ export default function Feed() {
         "postgres_changes",
         { event: "INSERT", schema: "public", table: "posts" },
         (payload) => {
-          console.log("✅ New post detected:", payload);
+          // console.log({ payload });
           // Refresh posts when any change happens
           getPosts();
         }
