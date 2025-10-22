@@ -1,0 +1,28 @@
+.header {
+  background-color: #3b82f6;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 8px 8px 0 0;
+  padding: 12px 24px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.mode {
+  background-color: #fef3c7;
+  color: #854d0e;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
